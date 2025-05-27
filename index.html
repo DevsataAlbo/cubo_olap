@@ -594,9 +594,9 @@
                     cube.style.animationPlayState = 'running';
                 });
                 
-                // Single click to pause/resume only if not in manual mode
+                // Un click to pause/resume only if not in manual mode
                 cube.addEventListener('click', function(e) {
-                    if (isManualMode) return; // Don't handle clicks in manual mode
+                    if (isManualMode) return; 
                     
                     e.preventDefault();
                     e.stopPropagation();
